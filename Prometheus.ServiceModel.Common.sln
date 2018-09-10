@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prometheus.ServiceModel.Common", "Prometheus.ServiceModel.Common\Prometheus.ServiceModel.Common.csproj", "{524BBF86-5D85-4CCA-AA2E-75B7C4EBE02C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{94926A9D-7FAA-467F-90B5-65BC3AA153BE}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		Logo-64x64.png = Logo-64x64.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Specs", "Specs", "{C6292E62-9C08-43A6-AE18-840776027BCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{524BBF86-5D85-4CCA-AA2E-75B7C4EBE02C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524BBF86-5D85-4CCA-AA2E-75B7C4EBE02C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524BBF86-5D85-4CCA-AA2E-75B7C4EBE02C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524BBF86-5D85-4CCA-AA2E-75B7C4EBE02C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6292E62-9C08-43A6-AE18-840776027BCE} = {94926A9D-7FAA-467F-90B5-65BC3AA153BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAEEF926-EFDC-44D0-973D-1037D309B390}
+	EndGlobalSection
+EndGlobal

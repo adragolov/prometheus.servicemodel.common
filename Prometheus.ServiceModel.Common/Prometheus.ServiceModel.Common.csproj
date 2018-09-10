@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Authors>Atanas Dragolov</Authors>
+    <Company>Saorsa Ltd</Company>
+    <Product>Prometheus Platform</Product>
+    <Copyright>Saorsa Ltd</Copyright>
+    <Description>A collection of commonly used middlewares and API endpoints for the promethean microservice hosts.</Description>
+    <PackageTags>prometheus</PackageTags>
+    <RepositoryType>github</RepositoryType>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/adragolov/prometheus.servicemodel.common</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/adragolov/prometheus.servicemodel.common/develop/Logo-64x64.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/adragolov/prometheus.servicemodel.common/tree/release/v1.0.0</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prometheus.ServiceModel" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Mvc.ViewFeatures">
+      <HintPath>..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.aspnetcore.mvc.viewfeatures\2.0.3\lib\netstandard2.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
